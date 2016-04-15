@@ -4,11 +4,11 @@ namespace myLibs;
 
 class logger
 {
-
+	private $path = null;
 
 	public function __construct($path = '')
 	{
-
+		$this->path = $path;
 	}
 
 
